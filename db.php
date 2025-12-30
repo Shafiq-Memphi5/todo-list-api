@@ -1,11 +1,11 @@
 <?php
 header("Content-Type: application/json");
 
-$server = "";
-$user = "";
-$pw = "";
-$db = "";
-$port;
+$server = "localhost";
+$user = "root";
+$pw = "1234";
+$db = "todo_list_api";
+$port = 3307;
 
 $conn = mysqli_connect($server, $user, $pw, $db, $port);
 /*
